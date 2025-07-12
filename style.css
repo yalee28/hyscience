@@ -1,0 +1,39 @@
+/* Google Fonts - Inter (Imported via HTML link, but can also be here for completeness) */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap'); */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f2f5; /* Light gray background, unchanged */
+}
+
+/* Custom styles for better readability and aesthetics */
+.section-title {
+    /* Blue border changed to Pink */
+    border-left: 8px solid #ec4899; /* Pink-500 */
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.activity-box {
+    /* Light blue background changed to Light Pink */
+    background-color: #fce7f3; /* Pink-100 */
+    /* Blue border changed to Pink */
+    border-left: 5px solid #f472b6; /* Pink-400 */
+}
+
+.feynman-tip {
+    background-color: #fffbe6; /* Light yellow background, unchanged */
+    border-left: 5px solid #facc15; /* Yellow border, unchanged */
+}
+
+.list-item-marker {
+    /* Blue color changed to Pink */
+    color: #ec4899; /* Pink-500 */
+    font-weight: bold;
+}
+
+/* Canvas specific styles */
+#springCanvas {
+    background-color: #ffffff; /* White background, unchanged */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
